@@ -47,12 +47,12 @@ let getAllData = () =>{
         error: (data) => {
            alert("some error occured")
         },
-        beforeSend:() =>{
-            alert("Request is being made. please wait")
-        },
-        complete: () => {
-            alert("data fetched successfully")
-        },
+        // beforeSend:() =>{
+        //     alert("Request is being made. please wait")
+        // },
+        // complete: () => {
+        //     alert("data fetched successfully")
+        // },
         timeout:3000
     });
 }
