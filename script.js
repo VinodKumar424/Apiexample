@@ -44,9 +44,9 @@ let getAllData = () =>{
 
             }
         },
-        error: (data) => {
-           alert("some error occured")
-        },
+        // error: (data) => {
+        //    alert("some error occured")
+        // },
         // beforeSend:() =>{
         //     alert("Request is being made. please wait")
         // },
